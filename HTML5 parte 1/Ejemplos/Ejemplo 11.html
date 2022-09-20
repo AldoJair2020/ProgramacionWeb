@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- Fig. 2.13: tabla2.html -->
+<!-- Tabla de HTML5 compleja. -->
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Tablas</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="Imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <h1>Ejemplo de tabla: combinado de filas y columnas</h1>
+
+        <table border="1">
+           <caption>Una tabla de muestra m&aacute;s compleja</caption> 
+
+           <thead>
+               <!-- los elementos rowspan y colspan combinan el número -->
+               <!-- especificado de celdas en sentido vertical u horizontal -->
+               <tr>
+                 <!-- combinan dos filas -->
+                <th rowspan="2">
+                    <img src="imagenes/camello.jpg" width="205"
+                    height="167" alt="Imagen de camello con joroba">
+                </th>
+
+                 <!-- combina cuatro columnas -->
+                 <th colspan="4">
+                   <strong>Comparaci&oacute;n de cam&eacute;lidos </strong><br>
+                    Fecha aproximada: 10/2011
+                 </th>
+               </tr> 
+               <tr>
+                    <th># Jorobas</th>
+                    <th>Regi&oacute;n ind&iacute;gena</th>
+                    <th>Escupe?</th>
+                    <th>Produce lana?</th>
+                </tr>
+           </thead>
+           <tbody>
+                <tr>
+                    <th>Cabellos (bactrianos)</th>
+                    <td>2</td>
+                    <td>Africa/Asia</td>
+                    <td>S&iacute;</td>
+                    <td>S&iacute;</td>
+                </tr>
+                <tr>
+                    <th>LLamas</th>
+                    <td>1</td>
+                    <td>Monta&ntilde;as de los Andes</td>
+                    <td>S&iacute;</td>
+                    <td>S&iacute;</td>
+                </tr>
+           </tbody>
+        </table>   
+    </body>
+</html>

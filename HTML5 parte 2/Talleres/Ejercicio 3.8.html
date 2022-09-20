@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Ejercicio 3.8</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <h1>Formulario con autocomplete con un elemento datalist:</h1>
+
+        <form method="post" autocomplete="on">
+            
+            <p><label for="listaTexto">D&iacute;a de la semana:
+                <input type="text" id="listaTexto"
+                placeholder="Seleccione d&iacute;a de la semana" list="semana-dia" />
+                <datalist id="semana-dia">
+                    <option value="Lunes">
+                    <option value="Martes">
+                    <option value="Mi&eacute;rcoles">
+                    <option value="Jueves">
+                    <option value="Viernes">
+                    <option value="S&aacute;bado">
+                    <option value="Domingo">
+                </datalist>
+            </label></p>
+
+            <p><input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" /></p>
+        </form>
+    </body>
+</html>

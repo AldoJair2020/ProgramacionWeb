@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 3.9</title>
+    </head>
+    <body>
+        <a href="../../index.html">
+            <img src="Imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+
+        <header>
+            <h1>3.2.1 input tipo color</h1>
+        </header>
+        <section id="1">
+            <p> El <strong>tipo input color </strong>(figura 3.1, lineas 20 y 21) permite al usuario introducir un color. Al 
+                momento de escribir este libro, algunos navegadores despliegan el tipo input color como un campo 
+                de texto en donde el usuario puede introducir un c&oacute;digo hexadecimal o el nombre de un color. 
+                Hay dos navegadores, Chrome y Opera, que muestran un <em>selector de color</em> similar al cuadro de di&aacute;logo 
+                de colores de Microsoft Windows, que se muestra en la figura 3.2. En el futuro, cuando haga clic en un 
+                elemento input color, es muy probable que el resto de los navegadores muestren un <em>selector de color</em> 
+                tambi&eacute;n.    
+            </p>
+        </section>
+
+        <section id="2">
+            <p><strong><em>El atributo autofocus</em></strong><br><br>
+                El <strong>atributo autofocus </strong>(figura 3.1, línea 20) (un atributo opcional que puede usarse s&oacute;lo en un elemento
+                input en un formulario) otorga de manera autom&aacute;tica el enfoque al elemento input, lo que permite al usuario
+                empezar a escribir en ese elemento de inmediato. La figura 3.3 muestra el uso del elemento autofocus en el
+                elemento color (el primer elemento input en nuestro formulario), como se despliega en Opera. No necesita
+                incluir autofocus en sus formularios.
+            </p>
+        </section>
+    
+        <section id="3">
+            <p><strong><em>Validaci&oacute;n</em></strong><br><br>
+                Tradicionalmente ha sido dif&iacute;cil validar la entrada del usuario, como asegurar que se 
+                introduzca una direcci&oacute;n de correo electr&oacute;nico, URL, fecha u hora en el formato adecuado. 
+                Los nuevos tipos input de HTML5 cuentan con <em>validaci&oacute;n autom&aacute;tica</em> del lado del cliente, 
+                con lo que se elimina la necesidad de agregar c&oacute;digo complicado de JavaScript a nuestras p&aacute;ginas 
+                Web para validar la entrada del usuario; así se reduce la cantidad de datos inv&aacute;lidos que se 
+                env&iacute;an y, en consecuencia, disminuye el tr&aacute;fico de Internet entre el servidor y el cliente 
+                que se usa para corregir las entradas inv&aacute;lidas. <em>De todas formas el servidor debe validar toda 
+                la entrada del usuario</em>.
+            </p> 
+            <p> Cuando un usuario introduce datos en un formulario y luego lo env&iacute;a 
+                (en este ejemplo, al hacer clic en el bot&oacute;n <strong>Enviar</strong>, el navegador verifica de inmediato los 
+                elementos de validaci&oacute;n autom&aacute;tica para asegurar que los datos sean correctos. Por 
+                ejemplo, si un usuario introduce un valor de color hexadecimal incorrecto al usar un navegador que 
+                despliegue los elementos color como un campo de texto (por ejemplo. Internet Explorer), aparecer&aacute; 
+                una anotaci&oacute;n para se&ntilde;alar ese elemento e indicar que se introdujo un valor incorrecto (figura 3.4).
+                La figura 3.5 lista cada uno de los nuevos tipos Input de HTML5 y muestra ejemplos de los formatos correctos
+                requeridos para que cada tipo de datos sea v&aacute;lido.
+            </p>
+
+            <p>Si desea pasar por alto la validaci&oacute;n, puede agregar <strong>el atributo formnovalidate</strong> al 
+                tipo input submit en la línea 101:</p><br>
+
+            <center><p>&lt;input type="submit" value="Enviar" formnovalidate /></p>
+        </section>
+    </body>
+</html>

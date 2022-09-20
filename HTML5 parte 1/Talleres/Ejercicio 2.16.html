@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Ejercicio 2.16</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <h1>Formulario acerca de tu visita al campus</h1>
+        <p>Por favor llene este formulario para saber su experiencia en el campus</p>
+        <form method="post" action="http://www.deitel.com">
+
+            <input type="hidden" name="destinatario"
+                value="deitel@ditel.com">
+            <input type="hidden" name="asunto"
+                value="Formulario de experiencia">
+            <input type="hidden" name="redirigir"
+                value="principal.html">
+            
+            <p><label>Nombre:
+                <input name="nombre" type="text" size="25">
+            </label></p>
+            <p><label>Correo electr&oacute;nico:
+               <input name="email" type="text" size="25">
+             </label></p>
+
+             <p>
+                <strong>Cosas que te gustaron del campus</strong><br>
+
+                <label>Campus
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Campus"></label>
+                <label>Estudiantes
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Estudiantes"></label>
+                <label>Ubicaci&oacute;n
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Ubicacion"></label>
+                <label>Ambiente
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Ambiente"></label>
+                <label>Dormitorios
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Dormitorios"></label>
+                <label>Deportes
+                    <input name="cosasgustaron" type="checkbox"
+                        value="Deportes"></label>
+            </p>
+
+            <p>
+                <label> ¿C&oacute;mo supiste de la universidad?
+                    <select name="comosupiste">
+                        <option>Amigos</option>
+                        <option>Televisi&oacute;n</option>
+                        <option>Internet</option>
+                        <option>Otro</option>
+                    </select>
+                </label>
+            </p>
+
+            <p><label>Comentarios adicionales:<br>
+                <textarea name="comentarios"
+                    rows="4" cols="36">Escriba aqu&iacute; los comentarios.</textarea> 
+            </label></p> 
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!-- Fig. 2.12: tabla1.html -->
+<!-- Creación de una tabla básica. -->
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Una tabla en HTML5 simple</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="Imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <!-- la etiqueta <table> abre una tabla -->
+        <table border="1">
+
+            <!-- la etiqueta <caption> sintetiza el contenido de -->
+            <!-- la tabla (esto ayuda a las personas con discapacidad visual) -->
+            <caption><strong>Tabla de frutas (1era columna) y
+                sus precios (2da columna)</strong></caption>
+               
+            <!-- la seleccion <thead> aparece primero en la tabla -->
+            <!-- da forma al área del encabezado de la tabla -->
+            <thead>
+               <tr><!-- <tr> inserta una fila en la tabla -->
+                  <th>Fruta</th><!-- inserta una celda de encabezado -->
+                  <th>Precio</th>
+               </tr>
+            </thead>
+            
+            <!-- la seccion <tfoot> aparece al último en la tabla -->
+            <!-- dentro del elemento <tbody> -->
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>$3.75</th>
+                </tr>
+            </tfoot>
+
+            <!-- todo el contenido de la tabla está cerrado -->
+            <!-- dentro del elemento <tbody> -->
+            <tbody>
+                <tr>
+                    <td>Manzana</td><!-- inserta una celda de datos -->
+                    <td>$0.25</td>
+                </tr>
+                <tr>
+                    <td>Naraja</td>
+                    <td>$0.50</td>
+                </tr>
+                <tr>
+                    <td>Pl&aacute;tano</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Pi&ntilde;a</td>
+                    <td>$2.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<!-- Fig 3.18 elementos_section.html-->
+<!-- Nuevos elementos section de HTML5. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nuevos elementos section de HTML5</title>
+    </head>
+    
+    <body>
+        <a href="../../index.html">
+            <img src="Imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <header> <!-- el elemento header crea un encabezado para la página-->
+            <img src="Imagenes/logo-deitel.jpg"alt="Logo de Deitel" />
+            <h1>Bienvenido a Deitel Buzz Online</h1>
+
+            <!-- el elemento time inserta una fecha y/o una hora-->
+            <time>2012-01-17</time>
+        
+        </header>
+
+        <section id="1"><!-- comienza la seccion 1 -->
+            <nav> <!-- vinculos de navegación de grupos del elemento nav -->
+                <h2>Publicaciones recientes</h2>
+                <ul>
+                    <li><a href="http://www.deitel.com/books/lMBhtpS"> 
+                        Internet & World Wide Web How to Program, 5/e</a>"</li>
+                    <li><a href = "http://www.deitel.com/books/andro1dfp/"> 
+                        Android for Programmers: An App-Driven Approach</a>
+                    </li>
+                    <li><a href = "http://www.deitel.com/books/iphonefp">
+                        iPhone for Programmers: An App-Driven A pproach</a></li>
+                    <li><a href = "http://www.deitel.com /books/jhtp9/">
+                        Java How to Program, 9/e</a></li>
+                    <li><a href = "http://www.deitel.com/books/cpphtp8/">
+                        C++ How to Program, 8/e </a>
+                    </li>
+                    <li><a href = "http://www.deitel.com/books/vcsharp2010htp">
+                        Visual C# 2010 How to Program, 4/e </a></li>
+                    <li><a href = "http://www.deitel.com/books/vb2010htp">
+                        Visual Basic 2010 How to Program</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section 1d = "2"> <!-- Comienza l a sección 2 -->
+            <h2>Libros de la serie C&oacute;mo programar</h2>
+            <h3><em>Java How to Program, 9/e</em></h3>
+
+            <figure> <!-- el elemento figure describe l a imagen -->
+                <img src = "Imagenes/javahow.jpg" width="133" height="200" alt = "Java How to Program. 9/e" />
+
+                <!-- el elemento figurecaption inserta una leyenda de figura -->
+                <figcaption>Cubierta de <em>Java How to Program, 9/e</em>
+                    .</figcaption>
+            </figure>
+
+            <!-- el elemento article representa el contenido de otra fuente -->
+            <article>
+                <header>
+                    <h5>De
+                        <em>
+                            <a href = " http://www.deitel.com/books/jhtp9/">
+                            Java How to program, 9/e </a>
+                        </em>
+                    </h5>
+                </header>
+                
+                <p>Caracter&iacute;sticas:
+                    <ul>
+                        <li>Extensa cobertura de los fundamentos:
+                        <!-- el elemento mark resalta texto -->
+                        <mark>dos cap&iacute;tulos sobre instrucciones de control.</mark></li>
+                        <li>Enfoque en <mark>ejemplos del mundo real.</mark></li>
+                        <li><mark>Conjunto de ejercicios Hacer la diferencia.</mark></li>
+                        <li>Introducci&oacute;n desde los primeros cap&iacute;tulos a las clases, objetos, m&eacute;todos y cadenas.</li>
+                        <li>Manejo de excepciones integrado.</li>
+                        <li>Archivos, flujos y serializaci&oacute;n de objetos.</li>
+                        <li>Secciones modulares opcionales sobre el lenguaje 
+                            y caracter&iacute;sticas de la biblioteca de la nueva versi&oacute;n Java SE 7</li>
+                        <li>Otros temas: Recursividad, b&uacute;squeda, ordenamiento, colecciones gen&eacute;ricas, gen&eacute;ricos, estrucuras
+                            de datos, applets, multimedia, multihilos, bases de datos/JDBC&trade:, desarrollo de aplicaciones web, servicios web, y
+                            un caso de estudio opcional de dise&ntilde;o orientado a objetos con un ATM.</li>
+                    </ul>
+
+                    <!-- el elemento summary representa un resumen para el -->
+                    <!-- contenido del elemento details -->
+                    <details>
+                        <summary>Testimonios de la reciente edici&oacute;n</summary>
+                        <ul>
+                            <li>"Se actualiz&oacute; para reflejar lo &uacute;ltimo en tecnolig&iacute;as de Java; sus claras y 
+                                detalladas explicaciones lo hacen indispensable. Los ejercicios de conciencia social [Hacer la diferencia]
+                                son algo verdaderamente nuevo y refrescante." <strong>&mdash;Jos&eacute; Antonio Gonz&aacute;lez Seco, 
+                                parlamento de Andaluc&iacute;a</strong>
+                            </li>
+                            <li>"Otorga a los nuevos programadores el beneficio de la sabidur&iacute;a derivada de muchos a&ntilde;os 
+                                de experiencia en el desarrollo de software."<strong> &mdash;Edward F. Gehringer, North Carolina
+                                State University </strong></li>
+                            <li>"Introduce las buenas pr&aacute;cticas y metodolog&iacute;as de dise&ntilde;o, justo desde el principio. Un excelente
+                                punto de partida para desarrollar aplicaciones Java robustas de alta calidad." <strong>&mdash;Simon Ritter,
+                                Oracle Corporation</strong>
+                            </li>
+                            <li>"Un estilo conversacional f&aacute;cil de leer. Los ejemplos de c&oacute;digo claros impulsan los lectores
+                                a olverse expertos en Java." <strong>&mdash;:Patty Kraft, San Diego State University</strong>
+                            </li>
+                            <li>"Un excelente libro de texto con una infinidad de ejemplos de diversos dominios de aplicaciones&mdash;
+                                excelente para un curso de ordinario de CS1 o CS2." <strong>&mdash;William E. Duncan, Louisiana State Universitty</strong>
+                            </li>
+                        </ul>
+                    </details>
+                </p>
+            </article>
+            <!-- el elemento aside representa el contenido en una barra lateral que está relacionado con el contenido alrededor del elemento -->
+            <aside>
+                Los navegadores no aplican formato al elemento aside.
+            </aside>
+
+            <h2>Libros de la serie Deitel Developer</h2>
+            <h3><em>Android for Programmers: An App-Driven Approach</em></h3>
+                Haga clic <a href="http://www.deitel.com/books/androidfp/">aqu&iacute;</a> para obtener m&aacute;s informaci&oacute; sobre c&oacute;mo
+                pedir este libro.
+
+            <h2>Videos LiveLesson</h2>
+            <h3><em>C# 2010 Fundamentals LiveLessons</em></h3>
+                Haga clic <a href="http://www.deitel.com/Books/LiveLessons/">aqu&iacute;</a> para obtener m&aacute;s informaci&oacute; sobre nuestros
+                videos LiveLessons.
+        </section>
+
+        <section id="3"><!-- comienza la section 3 -->
+            <h2>Resultados de nuestra encuesta en Facebook</h2>
+            <p>Si usted fuera un novato que deseara aprender Java por primera vez, &iquest;preferir&iacute;a un curso que ense&ntilde;ara Java
+                en el contexto del desarrollo de aplicaicones Android? Estos son los resultados de nuestra encuesta:</p>
+            
+            <!-- el elemento meter representa una escala dentro de un ango -->
+            0 <meter min="0" max="54" value="14"></meter> 54
+            <p>De los 54 participantes, 14 (verde) preferir&iacute;an aprender Java en el contexto del desarrollo de aplicaciones Android.</p>
+        </section>
+
+        <!-- el elemento footer representa un pie de una sección o página, por lo general contiene información como el nombre del autor,
+        copyright, etc. -->
+
+        <footer>
+            <h6>&copy; 1992-2012 por Deitel &amp; Associ<wbr>ates, Inc. Todos los derechos reservados. </h6>
+            <!-- el elemento address representa la informacion de cointacto para un documento, o para el elemento body o article más cercano -->
+            <address>
+                Escriba a <a href="mailto:deitel@deitel.com">deitel@deitel.com</a>
+            </address>
+        </footer>
+    </body>
+</html>

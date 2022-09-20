@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Ejercicio 3.6</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+        <h1>Formulario de registro de encuesta:</h1>
+
+        <form method="post">
+            <p><label>Primer nombre:
+                <input type="text" id="primerNombre"
+                placeholder="Primer nombre"/> 
+            </label></p>
+
+            <p><label>Apellido:
+                <input type="text" id="apellido"
+                placeholder="Apellido"/>
+            </label></p>
+
+            <p><label>Direcci&oacute;n de correo electr&oacute;nico:
+                <input type="email" id="email"
+                placeholder="nombre@dominio.com"/> 
+            </label></p>
+
+            <p>¿En qu&eacute; a&ntilde;o te encuentras?</p>
+            <p><label for="listaTexto">A&ntilde;o de universidad:
+                <input type="text" id="listaTexto"
+                placeholder="Seleccione a&ntilde;o" list="año" />
+                <datalist id="año">
+                    <option value="Primer a&ntilde;o">
+                    <option value="Segundo a&ntilde;o">
+                    <option value="Tercer a&ntilde;o">
+                    <option value="Cuarto a&ntilde;o">
+                </datalist>
+            </label></p>
+        </form>
+    </body>
+</html>

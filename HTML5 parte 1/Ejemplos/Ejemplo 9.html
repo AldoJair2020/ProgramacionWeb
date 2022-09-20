@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!-- Fig. 2.11: lista.html -->
+<!-- Lista anidadas u listas desordenadas. -->
+<html>
+    <head>
+        <meta charset= "utf-8"> 
+        <title>Listas</title> 
+    </head>
+
+    <body>
+        <a href="../../index.html">
+            <img src="Imagenes/boton_regresar.png" width="150"
+            height="50" alt="bot&aacute;n de regresar">
+        </a>
+       <h1>Las mejores caracter&iacute;sticas de Internet</h1>
+
+       <!-- crear una lista desordenada-->
+        <ul>
+            <li>Puede conocer nuevas personas de pa&iacute;ses de todo
+                el mundo.</li>
+            <li>
+                Tiene acceso a los nuevos medios a medida que se hacen p&uacute;blicos:
+                
+                <!-- esto empieza una lista desordenada anidada, que usa una -->
+                <!-- viñeta distinta. La lista terminal al-->
+                <!-- cerrar la etiqueta <ul> -->
+                <ul>
+                    <li>Nuevos juegos</li>
+                    <li>Nuevas aplicaciones
+
+                      <!-- lista ordenada anidada -->
+                      <ol>
+                        <li>Por negocio</li>
+                        <li>Por placer</li>
+                      </ol>
+                    </li><!--termina elemento li que inició en la linea 27 y que llama a nuevas aplicaciones -->
+                    
+                    <li>Noticias las 24 horas</li>
+                    <li>Motores de b&uacute;squeda</li>
+                    <li>Compras</li>
+                    <li>Programaci&oacute;n
+
+                        <!-- otra lista ordenada anidada -->
+                        <ol>
+                            <li>XML</li>
+                            <li>Java</li>
+                            <li>HTML5</li>
+                            <li>JavaScript</li>
+                            <li>Nuevos lenguajes</li>
+                        </ol>
+                    </li><!-- termina el elemento li, llamado programación, que inicipo en la linea 38 -->
+                </ul> <!-- termina la lista anidada de la linea 24 -->
+            </li> 
+
+            <li>V&iacute;nculos</li>
+            <li>Mantenerse en contacto con viejos amigos</li>
+            <li>Es la tecnolog&iacute;a del futuro</li>
+        </ul> 
+    </body>
+</html>
